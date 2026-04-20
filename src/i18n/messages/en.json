@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "Anatomia 3D",
+    "tagline": "Explore the human body in 3D",
+    "description": "Bilingual interactive platform for learning human anatomy in three dimensions."
+  },
+  "nav": {
+    "home": "Home",
+    "atlas": "3D Atlas",
+    "about": "About",
+    "switchTo": "Français"
+  },
+  "home": {
+    "heroEyebrow": "Learn anatomy differently",
+    "heroTitle": "The human body,\nin three dimensions.",
+    "heroSubtitle": "Rotate, explore, and virtually dissect every organ, bone, and muscle. Built for medical students, teachers, and the curious.",
+    "cta": "Open the atlas",
+    "ctaSecondary": "Learn more",
+    "featureSystemsTitle": "11 anatomical systems",
+    "featureSystemsBody": "Skeletal, muscular, nervous, cardiovascular, respiratory and more — explore each system alone or combined.",
+    "featureInteractiveTitle": "Fully interactive",
+    "featureInteractiveBody": "Click any structure to reveal its name, description, and function, in French or English.",
+    "featureLayerTitle": "Layer peeling",
+    "featureLayerBody": "A single slider takes you from skin to muscle to skeleton — like a virtual dissection.",
+    "featureMobileTitle": "Mobile & desktop",
+    "featureMobileBody": "Smooth touch controls on phone, precise mouse controls on desktop. Nothing to install.",
+    "footer": "© {year} Anatomia 3D — Anatomical content under GPL v3."
+  },
+  "atlas": {
+    "loading": "Loading 3D model…",
+    "tapHint": "Tap a structure to learn more",
+    "clickHint": "Click a structure to learn more",
+    "resetView": "Reset view",
+    "systems": "Systems",
+    "layers": "Layers",
+    "opacitySkin": "Skin",
+    "opacityMuscle": "Muscles",
+    "opacitySkeleton": "Skeleton",
+    "noSelection": "No structure selected",
+    "noSelectionBody": "Click or tap any organ in the 3D scene to see its detailed information here.",
+    "function": "Function",
+    "description": "Description",
+    "system": "System",
+    "close": "Close",
+    "showAll": "Show all",
+    "hideAll": "Hide all"
+  },
+  "systems": {
+    "skeletal": "Skeletal",
+    "muscular": "Muscular",
+    "nervous": "Nervous",
+    "circulatory": "Cardiovascular",
+    "respiratory": "Respiratory",
+    "digestive": "Digestive",
+    "urinary": "Urinary",
+    "reproductive": "Reproductive",
+    "endocrine": "Endocrine",
+    "lymphatic": "Lymphatic",
+    "integumentary": "Integumentary"
+  },
+  "about": {
+    "title": "About Anatomia 3D",
+    "intro": "Anatomia 3D is a free and open educational tool to explore human anatomy in three dimensions, in both French and English.",
+    "modelsTitle": "3D models",
+    "modelsBody": "The current version ships with a simplified illustrative anatomy model. The project is designed to drop in the detailed Z-Anatomy models (GPL v3) as soon as they are placed in the public/models/ folder.",
+    "techTitle": "Technology",
+    "techBody": "Next.js 15, React, TypeScript, Three.js (via React Three Fiber), Tailwind CSS, next-intl. Open-source under GPL v3.",
+    "creditsTitle": "Credits",
+    "creditsBody": "Detailed anatomical models come from the Z-Anatomy project — a free anatomical atlas under GPL v3. Thanks to their contributors.",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerBody": "Anatomia 3D is an educational tool. It is not a substitute for medical advice or a clinical anatomy textbook."
+  }
+}

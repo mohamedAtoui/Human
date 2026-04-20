@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "Anatomia 3D",
+    "tagline": "Explorez le corps humain en 3D",
+    "description": "Plateforme interactive bilingue pour apprendre l'anatomie humaine en trois dimensions."
+  },
+  "nav": {
+    "home": "Accueil",
+    "atlas": "Atlas 3D",
+    "about": "À propos",
+    "switchTo": "English"
+  },
+  "home": {
+    "heroEyebrow": "Apprendre l'anatomie autrement",
+    "heroTitle": "Le corps humain,\nen trois dimensions.",
+    "heroSubtitle": "Faites pivoter, explorez et disséquez virtuellement chaque organe, os et muscle. Parfait pour les étudiants en médecine, les enseignants et les curieux.",
+    "cta": "Lancer l'atlas",
+    "ctaSecondary": "En savoir plus",
+    "featureSystemsTitle": "11 systèmes anatomiques",
+    "featureSystemsBody": "Squelettique, musculaire, nerveux, cardiovasculaire, respiratoire et plus — explorez chaque système ou combinez-les.",
+    "featureInteractiveTitle": "Interaction totale",
+    "featureInteractiveBody": "Cliquez sur n'importe quelle structure pour afficher son nom, sa description et sa fonction, en français ou en anglais.",
+    "featureLayerTitle": "Effeuillage des couches",
+    "featureLayerBody": "Un curseur unique pour passer de la peau aux muscles puis au squelette — comme une dissection virtuelle.",
+    "featureMobileTitle": "Mobile & bureau",
+    "featureMobileBody": "Contrôles tactiles fluides sur téléphone, contrôles souris précis sur ordinateur. Aucun téléchargement.",
+    "footer": "© {year} Anatomia 3D — Contenu anatomique sous licence GPL v3."
+  },
+  "atlas": {
+    "loading": "Chargement du modèle 3D…",
+    "tapHint": "Touchez une structure pour en savoir plus",
+    "clickHint": "Cliquez sur une structure pour en savoir plus",
+    "resetView": "Recentrer",
+    "systems": "Systèmes",
+    "layers": "Couches",
+    "opacitySkin": "Peau",
+    "opacityMuscle": "Muscles",
+    "opacitySkeleton": "Squelette",
+    "noSelection": "Aucune structure sélectionnée",
+    "noSelectionBody": "Cliquez ou touchez un organe dans la scène 3D pour afficher ses informations détaillées ici.",
+    "function": "Fonction",
+    "description": "Description",
+    "system": "Système",
+    "close": "Fermer",
+    "showAll": "Tout afficher",
+    "hideAll": "Tout masquer"
+  },
+  "systems": {
+    "skeletal": "Squelettique",
+    "muscular": "Musculaire",
+    "nervous": "Nerveux",
+    "circulatory": "Cardiovasculaire",
+    "respiratory": "Respiratoire",
+    "digestive": "Digestif",
+    "urinary": "Urinaire",
+    "reproductive": "Reproducteur",
+    "endocrine": "Endocrinien",
+    "lymphatic": "Lymphatique",
+    "integumentary": "Tégumentaire"
+  },
+  "about": {
+    "title": "À propos d'Anatomia 3D",
+    "intro": "Anatomia 3D est un outil pédagogique libre et gratuit pour découvrir l'anatomie humaine en trois dimensions, en français et en anglais.",
+    "modelsTitle": "Modèles 3D",
+    "modelsBody": "La version actuelle utilise un modèle anatomique simplifié illustratif. Le projet est conçu pour intégrer les modèles détaillés de Z-Anatomy (sous licence GPL v3) dès qu'ils sont déposés dans le dossier public/models/.",
+    "techTitle": "Technologies",
+    "techBody": "Next.js 15, React, TypeScript, Three.js (via React Three Fiber), Tailwind CSS, next-intl. Code source ouvert sous GPL v3.",
+    "creditsTitle": "Crédits",
+    "creditsBody": "Les modèles anatomiques détaillés proviennent du projet Z-Anatomy — un atlas anatomique libre sous licence GPL v3. Merci à leurs contributeurs.",
+    "disclaimerTitle": "Avertissement",
+    "disclaimerBody": "Anatomia 3D est un outil éducatif. Il ne remplace ni un avis médical, ni un manuel d'anatomie clinique."
+  }
+}
