@@ -1,7 +1,7 @@
 "use client";
 
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Environment, ContactShadows, Html } from "@react-three/drei";
+import { OrbitControls, ContactShadows, Html } from "@react-three/drei";
 import { Suspense } from "react";
 import { HumanModel } from "./HumanModel";
 import { useAnatomyStore } from "@/store/anatomyStore";
@@ -66,7 +66,6 @@ export function AnatomyScene() {
       <Suspense fallback={<Loader />}>
         <HumanModel />
         <HoveredLabel />
-        <Environment preset="city" />
       </Suspense>
 
       <ContactShadows
